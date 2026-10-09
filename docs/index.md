@@ -24,5 +24,11 @@ Create a professional design-system setup that enables AI to generate UNIQUE, no
 - `tokens/scroll-patterns.md` — Lenis, GSAP+Lenis recipes, CSS scroll-driven `@supports` patterns, anime.js `onScroll()`
 - `docs/do-dont.md` — DO/DON'T checklist distilled from prompts, motion, scroll and LLM-instruction docs
 - Also: `docs/llm-instructions.md`, `docs/prompts.md`, `docs/top-systems.md`, `docs/references.md`, `tokens/tokens-structure.md`, `tokens/motion-anime.md`
+- `docs/accessibility.md` — Accessibility rules, WCAG checklists, keyboard interaction and design trade-offs
+- `docs/patterns.md` — Forms, state management, layouts and navigation patterns
+- `docs/decision-guide.md` — Technology selection matrix and trade-offs for deliberate frontend decisions
+- `docs/systems-catalog.md` — Enterprise systems catalog — ranked design systems and component strategies
+- `docs/agent-workflow.md` — AI agent workflow — how agents read and apply this knowledge base
+- `skills/shadcn/` · `skills/migrate-radix-to-base/` — agent skills: component management + Radix→Base migration (MIT © shadcn, see `skills/PROVENANCE.md`)
 
 Focus: make AI produce non-generic, distinct results. Include concrete JSON + markdown files ready to create.

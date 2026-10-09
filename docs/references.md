@@ -56,3 +56,18 @@
 - Obys Agency: https://obys.agency/
 - The Brewery: https://the-brewery.io/
 - Locomotive Scroll: https://locomotivemtl.github.io/locomotive-scroll/
+
+### Sibling reference sources (UI-Brain)
+
+UI-Brain (https://github.com/alisattorov06/UI-Brain) bundles local source snapshots of major UI frameworks:
+
+| Source Library | Primary Purpose |
+|---|---|
+| **Astryx** | Customizable React design system and theme tools |
+| **Carbon** | Enterprise IBM design system and components |
+| **Fluent UI** | Microsoft Fluent design framework for Web & React |
+| **Material Web** | Google Material Design 3 web components |
+| **Radix Primitives** | Accessible, unstyled UI primitives for React |
+| **React Bits** | Micro-interactions, background, text & cursor animations |
+| **TDesign** | Tencent design system with extensive UI tokens |
+| **shadcn/ui** | Reusable component registry & starter templates |

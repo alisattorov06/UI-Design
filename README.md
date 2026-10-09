@@ -43,6 +43,12 @@ UI-Design/
 | `research/index.md` · `research/structure.txt` | Original overview and the recommended file structure |
 | `research/top-systems.md` · `research/tokens-structure.md` · `research/motion-anime.md` · `research/aesthetics.md` · `research/ai-friendly.md` | Raw analysis behind the docs on systems, tokens, motion, aesthetics and LLM-friendly patterns |
 | `research/llm-instructions.md` · `research/prompts.md` · `research/references.md` · `research/anime-starter.js` · `research/tokens.example.json` | Original copy-paste source material behind `docs/`, `tokens/` and `motion/` |
+| `docs/accessibility.md` | Accessibility rules, WCAG checklists, keyboard interaction and design trade-offs |
+| `docs/patterns.md` | Forms, state management, layouts and navigation patterns |
+| `docs/decision-guide.md` | Technology selection matrix and trade-offs for deliberate frontend decisions |
+| `docs/systems-catalog.md` | Enterprise systems catalog — ranked design systems and component strategies |
+| `docs/agent-workflow.md` | AI agent workflow — how agents read and apply this knowledge base |
+| `skills/shadcn/` · `skills/migrate-radix-to-base/` | Agent skills: component management + Radix→Base migration (MIT © shadcn, see `skills/PROVENANCE.md`) |
 
 ## Who this is for
 
@@ -67,6 +73,7 @@ UI-Design/
 2. Take one prompt from `docs/prompts.md` (signature-first, density-driven, motion character, anti-generic, mood tokens).
 3. Add motion rules from `docs/motion-principles.md`, engine choice from `docs/motion-landscape.md`.
 4. Finish with the DO/DON'T audit: `docs/do-dont.md`.
+5. Use `skills/shadcn/` and `skills/migrate-radix-to-base/` as agent skills (component management + Radix→Base migration).
 
 ### 3. Copy-paste — into your own project
 
@@ -110,7 +117,7 @@ The differentiator of this repo: it teaches AI how **not** to look like AI. Use 
 
 ## Research provenance
 
-`research/` holds the original source material — the raw analysis, ranked systems, token notes, motion notes and reference dumps this project was distilled from. `docs/` is the distilled current version; when the two disagree, trust `docs/` and refresh it from the sources listed in `docs/references.md`. The findings of the original research report are folded into **Key insights** below.
+`research/` holds the original source material — the raw analysis, ranked systems, token notes, motion notes and reference dumps this project was distilled from. `docs/` is the distilled current version; when the two disagree, trust `docs/` and refresh it from the sources listed in `docs/references.md`. The findings of the original research report are folded into **Key insights** below. The agent-skill files (`skills/`) and the enterprise systems catalog (`docs/systems-catalog.md`) come from sibling repo [UI-Brain](https://github.com/alisattorov06/UI-Brain).
 
 ## Key insights
 

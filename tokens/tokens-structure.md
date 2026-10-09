@@ -78,3 +78,11 @@ Prefer OKLCH for perceptual uniformity; provide fallbacks if needed. Keep minima
 - Style Dictionary: https://amzn.github.io/style-dictionary/ (DTCG: https://styledictionary.com/info/dtcg/)
 - Tokens Studio: https://www.tokens.studio/
 - Theo (Salesforce): https://github.com/salesforce-ux/theo
+
+### Practical questions
+
+- Need the same brand style across multiple products? → create a token.
+- Need dark mode? → define colors as semantic tokens.
+- Moving from one library to another? → first separate token names, then replace components.
+
+See also: [`docs/decision-guide.md`](docs/decision-guide.md).
