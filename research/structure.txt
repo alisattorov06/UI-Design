@@ -1,0 +1,29 @@
+Recommended file structure for /media/sattorov/Tom 150/Project/design-system/
+
+design-system/
+├── README.md
+├── tokens/
+│   ├── tokens.json            # W3C DTCG tokens (primitives→semantic→component→decision)
+│   ├── tokens.css             # CSS custom properties emitted from tokens
+│   └── build.js               # Style Dictionary build (optional)
+├── docs/
+│   ├── design-system.md
+│   ├── art-direction.md
+│   ├── motion-principles.md
+│   ├── llm-instructions.md
+│   └── do-dont.md
+├── motion/
+│   ├── anime-starter.js       # Anime.js v4 presets/eases/choreography
+│   ├── reduced-motion.js
+│   └── utils.js
+├── styles/
+│   ├── base.css
+│   ├── reset.css
+│   ├── utilities.css
+│   └── themes.css
+├── components/
+│   ├── primitives/            # unstyled, token-driven
+│   ├── ui/                    # styled per art direction
+│   └── examples/
+└── scripts/
+    └── validate-tokens.js      # basic validation (no hardcoded values)
